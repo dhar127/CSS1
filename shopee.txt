@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title> Doc 1 CSS </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <!--Get your own code at fontawesome.com-->
+        <style type="text/css">
+            .myDiv{
+                background-color: rgb(255, 186, 125);
+                width: 10px 10px;
+                height: 50px;
+            }
+            .myDip{
+                background-color: rgb(255, 186, 125);
+                width: 20px 20px;
+                height: 130px;
+                margin: 350px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <div id="dashBoard" class="myDiv">
+                <img id="icon" src="https://ak7.picdn.net/shutterstock/videos/33508117/thumb/1.jpg?i10c=img.resize(height:160)" 
+                style="position: absolute; top: 8px; left: 50px;" width="3%" height="5%"><p style="position: relative; top: 32px; left: -580px;">Shop World</p> 
+                <img src="https://img.favpng.com/15/6/20/shopping-cart-e-commerce-online-shopping-logo-png-favpng-5V0ej7qsf1a8TE39sSj9EDASN.jpg" style="position: absolute; top: 15px; left: 1150px;" 
+                width="3%" height="5%"><p id="cartItems" style="position: relative; top: -20px; left: 590px;"> Cart Items (0)</p>
+            </div>
+            <img id="titleImage" src="https://cdn.pixabay.com/photo/2017/03/01/09/11/shop-2107911_960_720.png"
+            width="1300" height="350">
+            <h1 id="productName1" style="font-size: small; position: relative; top: 60px; left: -540px;">Discover New Bags</h1> 
+            <img id="productImage1" src="https://www.susmaletas.com/images/articulos/original/tommy_hilfiger_natalia_ns_tote_handbag_1302-1.jpg" 
+            style="position: absolute; top: 510px; left: 70px;" width="8%" height="15%">
+            <p id="productName1" style="font-size: small; position: relative; top: 160px; left: -535px;">Tommy Hilfiger</p>
+            <p id="productPrice1" style="position: relative; top: 170px; left: -565px;">$7.49</p>
+            <input id="productAdd1" type="submit" value="Add" style="position: relative; top: 135px; left: -510px; margin: 0% 47.8%; text-align: right;"> 
+            <img id="productImage2" src="https://www.williampenn.net/_next/image?url=https%3A%2F%2Fstaticm24.williampenn.net%2Fpub%2Fmedia%2Fcatalog%2Fproduct%2Fw%2Fp%2Fwp27068-a.jpg&w=1920&q=75" 
+            style="position: absolute; top: 505px; left: 250px;" width="8%" height="17%">
+            <p style="font-size: small; position: relative; top: 60px; left: -345px;">Tommy Hilfiger</p>
+            <p id="productPrice2" style="position: relative; top: 70px; left: -380px;">$10.00</p>
+            <input id="productAdd2" type="submit" value="Add" style="position: relative; top: 35px; left: -320px; margin: 0% 47.8%; text-align: right;"> 
+            <h1 id="productName2" style="font-size: small; position: relative; top: 80px; left: -540px;">Discover New Watches</h1>
+            <img id="productImage3" src="https://www.watchclub.com/upload/watches/gallery_big/watch-club-tudor-black-bay-41mm-full-set-tudor-warranty-ref-79730-year-2018-1.jpg" 
+            style="position: absolute; top: 775px; left: 60px;" width="13%" height="17%">
+            <p style="font-size: small; position: relative; top: 215px; left: -575px;">Tudor</p>
+            <p id="productPrice3" style="position: relative; top: 215px; left: -565px;">$800.49</p>
+            <button style="position: relative; top: 179px; left: -460px; margin: 0% 47.8%; text-align: right;" onclick="add()">
+            <img src="https://th.bing.com/th/id/OIP.S7b6f8rMY6sKGpE6zHm5QgHaHa?pid=ImgDet&rs=1" align="left" 
+            width="34.2%" height="40%">Add</button>
+            <h1 id="productName3" style="font-size: small; position: relative; top: 210px; left: -560px;">Jewels For You</h1>    
+            <img id="productImage3" src="https://www.krishnapearls.com/blog/wp-content/uploads/2020/09/Pearl-Bangles-Online.jpg" 
+            style="position: absolute; top: 1025px; left: 60px;" width="13%" height="17%">
+            <p style="font-size: small; position: relative; top: 340px; left: -570px;">Bangle</p>
+            <p id="productPrice4" style="position: relative; top: 340px; left: -565px;">$126.49</p>
+            <button style="position: relative; top: 304px; left: -460px; margin: 0% 47.8%; text-align: right;" onclick="add()">
+            <img src="https://th.bing.com/th/id/OIP.S7b6f8rMY6sKGpE6zHm5QgHaHa?pid=ImgDet&rs=1" align="left" 
+            width="34.2%" height="40%">Add</button>
+            <footer>
+            <div class="myDip">
+                <img id="productFooterIcon" src="https://ak7.picdn.net/shutterstock/videos/33508117/thumb/1.jpg?i10c=img.resize(height:160)" 
+                style="position: absolute; top: 1275px; left: 70px;" width="6%" height="10%"><p 
+                style="position: relative; top: 20px; left: -530px;">Brought to you by Shop World</p> 
+                <h6 style="position: relative; top: -20px; left: 580px;"> Shop World</h6>
+                <p id="productFooterAddress" style="position: relative; text-align: right; top: -30px; left: -35px; 
+                font-size: small;">MSS Street, 1st Phase<br>Trichy<br>Contact at mssshopping@gmail.com</p>    
+            </div>
+            </footer>
+        </center>
+    </body>
+</html>
